@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lin_content_view1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/btn_open_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/light_blue"
+            android:gravity="center"
+            android:padding="@dimen/normal_5dp"
+            android:text="开启闪光灯"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/btn_close_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:layout_marginLeft="@dimen/normal_10dp"
+            android:layout_toRightOf="@+id/btn_open_light"
+            android:background="@color/colorAccent"
+            android:padding="@dimen/normal_5dp"
+            android:text="关闭闪光灯"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+</FrameLayout>
